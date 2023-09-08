@@ -11,8 +11,8 @@ on:
       tox-version:
         required: false
         description: |
-          Tox version, which should be used, e.g. `<4`. If not specified, the
-          latest version of tox will be installed.
+          Tox version, which should be used. The latest
+          3.x version will be used by default.
         type: string
         default: "<4"
       working-directory:
